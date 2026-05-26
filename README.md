@@ -57,11 +57,11 @@ pip install keyboard mss pyperclip pystray pillow faster-whisper soundcard numpy
 
 ## 🔑 Cómo Obtener la API Key Recomendada (NVIDIA / Mistral) FREE 🚀
 
-Recomendamos utilizar la API de **NVIDIA NIM** con el modelo **Mistral Small**, ya que es **gratuita para desarrolladores**, extremadamente rápida, ofrece una visión en alta definición excelente y un razonamiento perfecto para exámenes.
+Recomendamos utilizar la API de **NVIDIA NIM** con el modelo **Mistral Medium** (`mistral-medium-3.5-128b`), ya que es **gratuita para desarrolladores**, extremadamente rápida, y ofrece un razonamiento perfecto para exámenes y casos de uso complejos.
 
-1. Ve al portal de desarrolladores de NVIDIA: [integrate.api.nvidia.com](https://integrate.api.nvidia.com/)
+1. Ve al portal de desarrolladores de NVIDIA: [build.nvidia.com](https://build.nvidia.com/)
 2. Inicia sesión con tu cuenta de NVIDIA (o regístrate gratis).
-3. Busca el modelo **`mistral-small-4-119b-2603`** (o cualquier modelo compatible de la sección Mistral/Llama).
+3. Busca el modelo **`mistral-medium-3.5-128b`** (bajo la sección de Mistral AI).
 4. Haz clic en **"Get API Key"** y genera una clave nueva.
 5. Copia esa clave (empezará por `nvapi-...`).
 
@@ -77,8 +77,8 @@ Recomendamos utilizar la API de **NVIDIA NIM** con el modelo **Mistral Small**, 
 # 1. Pega tu API Key de NVIDIA que copiaste anteriormente (empieza por nvapi-)
 OPENROUTER_API_KEY=nvapi-TU_CLAVE_API_NVIDIA_AQUI
 
-# 2. Modelo activo (Recomendamos Mistral Small por su velocidad y soporte HD)
-AI_MODEL=mistralai/mistral-small-4-119b-2603
+# 2. Modelo activo (Recomendamos Mistral Medium por su razonamiento avanzado)
+AI_MODEL=mistral-medium-3.5-128b
 
 # 3. Dirección base de NVIDIA
 AI_BASE_URL=https://integrate.api.nvidia.com/v1
