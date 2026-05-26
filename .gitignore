@@ -1,0 +1,34 @@
+# Credenciales y Configuración Privada (NO SUBIR)
+config.env
+*.env
+!*.env.example
+
+# Memoria y contexto temporal
+exam_assistant/context*.json
+
+# Bases de datos pesadas
+*.db
+exam_assistant/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller y Compilación
+build/
+dist/
+*.spec
+
+# Entornos Virtuales
+.venv/
+venv/
+ENV/
+
+# Carpetas del agente y configuración local
+.agents/
+.claude/
+.claude-flow/
+.swarm/
+skills-lock.json
+.mcp.json

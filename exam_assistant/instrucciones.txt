@@ -1,0 +1,3 @@
+# REGLAS PERSONALIZADAS PARA TU IA
+# Escribe aquí indicaciones específicas que quieres que la IA siga SIEMPRE.
+# Ejemplo: 'Siempre responde de forma muy concisa'
